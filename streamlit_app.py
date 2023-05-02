@@ -49,3 +49,6 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_rows)
 
 
+add_my_fruit = streamlit.text_input('what fruit would you like to add', 'jackfruit')
+
+streamlit.write('Thanks for adding', add_my_fruit)
