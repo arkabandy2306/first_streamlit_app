@@ -88,8 +88,8 @@ streamlit.dataframe(my_data_rows)
 
 def insert_row_snowflake(new_fruit):
   with my_cnx.cursor() as my_cur:
-    my_cur.execute("insert into fruit load list values ('from streamlit')")
-    retrun "Thanks for adding"+ new_fruit
+       my_cur.execute("insert into fruit load list values ('from streamlit')")
+       retrun"Thanks for adding" + new_fruit
     
     
 
